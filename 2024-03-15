@@ -1,0 +1,62 @@
+##a = 123
+##b = "Hello World"
+##c = True
+##print(a, type(a))
+##print(b, type(b))
+##print(c, type(c))
+##print("%d은 정수이다." %7)
+##number = 3
+##print("%d는 정수이다." % number)
+##m = 12
+##d = 7
+##print("오늘은 %d월 %d일이다." % (m, d))
+##pi = 3.42134234
+##print("%f" %pi)
+##pi = 3.42134234
+##print("%.2f" %pi)
+##a = 10
+##b = 2
+##print("%d %d %d"%(a+b, a-b, a*b))
+##print(7/2, 7//2, 7%2)
+##a=(100+96+80)// 3
+##print("%d" %a)
+##name = input("이름: ")
+##print("== 자기 소개하기 ==")
+##print("이름 : %s" % name)
+##name = input("이름: ")
+##age = int(input("나이: "))
+##height = float(input("키: "))
+##print("== 자기 소개하기 ==")
+##print("이름: %s, 나이: %d, 키: %f" %(name,age,height),sep='\n')
+##a = int(input("a 정수 입력 : "))
+##b = int(input("b 정수 입력 : "))
+##c = int(input("c 정수 입력 : "))
+##print("세 정수의 평균은 %0.2f입니다." %((a+b+c)/3))
+##name = (input("이름: "))
+##age = int(input("나이: "))
+##height = float(input("키: "))
+##print("== 친구 소개하기 ==")
+##print("제 친구의 이름은 %s이고, 나이는 %d살이에요." %(name,age))
+##print("키는 %.2fcm예요" %height)
+##L = int(input("L 판매개수: "))
+##M = int(input("M 판매개수: "))
+##S = int(input("S 판매개수: "))
+##sum = 2500*L
+##sum = sum+1000*M
+##sum = sum+500*S
+##print("오늘의 총 매출은 %d원입니다." %sum)
+##height = int(input("height: "))
+##width = int(input("width: "))
+##print("hight: %d, width: %d, area: %3f" %(height, width, (height*width/2)))
+##inch = int(input("inch: "))
+##print("%.2fcm" %(inch*2.54))
+##a = int(input("a: "))
+##b = int(input("b: "))
+##print("%d" %(a**b))
+##a = int(input("정수: "))
+##b = int(input("정수: "))
+##print("%d - %d = %d" %(a,b,(a-b)))
+##print("%d * %d = %d" %(a,b,(a*b)))
+##print("%d / %d = %.2f" %(a,b,(a/b)))
+##print("%d // %d = %d" %(a,b,(a//b)))
+##print("%d %% %d = %d" %(a,b,(a%b)))
