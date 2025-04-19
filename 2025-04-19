@@ -1,0 +1,110 @@
+x=10
+y=50
+print(x==y)
+print(x<y)
+score=80
+if score>=60 and score<= 100:
+    print("Pass")
+else :
+    print("Fail")
+score=72
+if score >= 90 :
+    print('A')
+elif score >=60:
+    print('B')
+else:
+    print('C')
+x=10
+print(x>=0 and x<=10)
+print(x<0 or x>10)
+print(not x)
+a=int(input())
+b=int(input())
+c=int(input())
+print(a>=140 and b>=140 and c>=140)
+score = int(input('score: '))
+if score >=60 :
+    print('Pass')
+else :
+    print('Fail')
+a=int(input())
+if a%2==0 :
+    print('EVEN')
+else :
+    print("ODD")
+case = ['Homework', 'Eating', 'Sleeping']
+if 'Homework' in case :
+    print("I have to do homework.")
+else:
+    print("It's break time.")
+a=input()
+if a=='M' :
+    print('Man')
+elif a=='W' :
+    print('Woman')
+else :
+    print('What?')
+a=int(input())
+if a>=1 and a<=6 :
+    print('first half')
+elif a>=7 and a<=12 :
+    print('second half')
+a = int(input())
+if a==1 :
+    print('Burgers are not available.')
+if a==2 or a==3 :
+    print('What would you like to drink?')
+if a==4 :
+    print('I like coke, too.')
+if a==5 :
+    print('Would you like hot or cold?')
+score=int(input('score: '))
+if score>=90 and score<=100 :
+    print('A')
+elif score>=80 :
+    print('B')
+elif score>=70 :
+    print('C')
+elif score>=60 :
+    print('D')
+else :
+    print('F')
+import random
+com= random.randint(1,2)
+user = int(input('odd : 1, even : 2\n'))
+print('COM(%d) : USER(%d)' %(com,user))
+if com == user :
+    print('Correct')
+else :
+    print('Incorrect')
+import random
+com=random.randint(1,3)
+print("1:가위, 2:바위, 3:보")
+user=int(input())
+if com == 1:
+    com = "가위"
+elif com == 2:
+    com = "바위"
+else :
+    com = "보"
+if user == 1:
+    user = "가위"
+elif user == 2:
+    user = "바위"
+else :
+    user = "보"
+print('Com(%s) : User(%s)' %(com, user))
+if user == "가위" and com == "바위" :
+    print('Come Win!')
+if user == "바위" and com == "보" :
+    print('Come Win!')    
+if user == 3 and com == "가위" :
+    print('Come Win!')
+if com == "보" and user == "가위" :
+    print('User Win!')
+if com == "바위" and user == "보" :
+    print('User Win!')
+if com == "가위" and user == "바위" :
+    print('User Win!')
+if com==user :
+    print('Draw')
